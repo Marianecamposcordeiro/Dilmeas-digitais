@@ -23,10 +23,10 @@
         <section class="card simulator">
             <h2>Simulador de Força de Senha</h2>
             <p>Teste o quão segura é uma combinação hipotética:</p>
-           
+            
             <div class="input-group">
                 <input type="password" id="passwordInput" placeholder="Digite uma senha para testar...">
-                <button id="toggleVisibility">👁️</button>
+                <button type="button" id="toggleVisibility" aria-label="Mostrar ou ocultar senha">👁️</button>
             </div>
 
             <div class="meter-container">
